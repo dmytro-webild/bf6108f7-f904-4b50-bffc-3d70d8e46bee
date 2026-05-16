@@ -46,6 +46,7 @@ export default function LandingPage() {
       <HeroCentered
       title="AI Automation Systems That Save Time, Cut Costs & Scale Your Business"
       description="Demedia helps small and medium businesses replace repetitive manual work with AI-powered workflows, smart chatbots, automated outreach, CRM systems, and custom AI tools built around their operations."
+      background={{ variant: "gradient-bars" }}
       avatars={[]}
       buttons={[
         { text: "Book a Free AI Audit", href: "#contact" },
