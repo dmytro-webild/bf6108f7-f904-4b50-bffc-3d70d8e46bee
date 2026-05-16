@@ -7,11 +7,10 @@ import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FeatureHoverPattern from '@/components/sections/feature/featureHoverPattern/FeatureHoverPattern';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import HeroCentered from '@/components/sections/hero/HeroCentered';
-import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
-import { BarChart, Clock, Database, FileText, Layers, Network, ShieldCheck, Star, Target, TrendingUp, UserCheck, Zap } from "lucide-react";
+import { Star, Target, FileText, Zap } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -45,7 +44,6 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroCentered
-      background={{ variant: "gradient-bars" }}
       title="AI Automation Systems That Save Time, Cut Costs & Scale Your Business"
       description="Demedia helps small and medium businesses replace repetitive manual work with AI-powered workflows, smart chatbots, automated outreach, CRM systems, and custom AI tools built around their operations."
       avatars={[]}
@@ -112,6 +110,7 @@ export default function LandingPage() {
       ]}
       mediaAnimation="slide-up"
       title="Why Demedia"
+      description="Learn more about our approach and why we are the right partner for your digital transformation."
       faqsAnimation="slide-up"
     />
   </div>
